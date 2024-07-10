@@ -4,15 +4,13 @@ plugins {
 }
 
 
-group = "com.superman.poet"
-version = "1.0"
 
 publishing {
     publications {
         create<MavenPublication>("maven") {
             groupId = "com.github.liyuehui"
             artifactId = "KRouter"
-            version = "1.0"
+            version = "1.3"
 
             from(components["java"])
         }
