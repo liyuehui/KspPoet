@@ -10,7 +10,7 @@ version = "1.0"
 publishing {
     publications {
         create<MavenPublication>("maven") {
-            groupId = "com.superman.poet"
+            groupId = "com.github.liyuehui"
             artifactId = "KRouter"
             version = "1.0"
 
